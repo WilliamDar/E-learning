@@ -20,9 +20,9 @@ Route::get('/', function () {
     return view('auth');
 });
 
-// Route::get('/welcome', function () {
-//     return view('welcome');
-// })->name('welcome');
+ Route::get('/welcome', function () {
+    return view('welcome');
+ })->name('welcome');
 
 Route::post('/register', [RegisterController::class, 'register'])->name('register');
 Route::get('/login', [LoginController::class, 'login'])->name('login');
