@@ -11,7 +11,22 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
+    <style>
+        .active{
+            background: #00FF84;
+            border: none;
+            color: #002333;
+        }
+    </style>
+
     @vite('resources/css/app.css')
+    <style>
+        .active{
+            background: #00FF84;
+            border: none;
+            color: #002333;
+        }
+    </style>
 </head>
 
 <body class="center ">
@@ -95,12 +110,7 @@
 
 
     </header>
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Minus sequi, laboriosam ipsam ad tempore voluptas odio modi
-        nemo aperiam. Quas dolorem blanditiis, sunt officiis excepturi
-        reprehenderit. Magni nihil quaerat corrupti?
-    </p>
+
 
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
