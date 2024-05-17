@@ -11,5 +11,6 @@ class RegisterController extends Controller
     public function register(PostRegister $request)
     {
         User::create($request->validated());
+        return redirect()->route('dashboard')->with('success', 'Successfully registed');
     }
 }
