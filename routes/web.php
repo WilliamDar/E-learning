@@ -26,9 +26,12 @@ Route::get('/', function () {
 
 Route::post('/register', [RegisterController::class, 'register'])->name('register');
 Route::get('/login', [LoginController::class, 'login'])->name('login');
-
-Route::group(['middleware' => 'auth'], function () {
-    Route::get('/home', function () {
+Route::get('/home', function () {
         return view('home');
     })->name('home');
+    Route::get('/create', function () {
+        return view('create_courses');
+    })->name('create');
+Route::group(['middleware' => 'auth'], function () {
+    
 });

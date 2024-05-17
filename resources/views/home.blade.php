@@ -126,14 +126,12 @@
                 </div>
                 <div class="part1  flex  items-center justify-center">
                     <div class="w-auto border-2 borer-white bg-transparent font-bold  text-white rounded-full px-3 py-1 my-2" id="Animation">Animation</div>
-                </div><div class="part1  flex  items-center justify-center">
+                </div>
+                <div class="part1  flex  items-center justify-center">
                     <div class="w-auto border-2 borer-white bg-transparent font-bold  text-white rounded-full px-3 py-1 my-2" id="social_media">Social media</div>
                 </div>
                 <div class="part1  flex  items-center justify-center">
                     <div class="w-auto border-2 borer-white bg-transparent font-bold  text-white rounded-full px-3 py-1 my-2" id="ui_ux">UI/UX design</div>
-                </div>
-                <div class="part1  flex  items-center justify-center">
-                    <div class="w-auto border-2 borer-white bg-transparent font-bold  text-white rounded-full px-3 py-1 my-2" id="featured">Featured</div>
                 </div>
                 <div class="part1  flex  items-center justify-center">
                     <div class="w-auto border-2 borer-white bg-transparent font-bold  text-white rounded-full px-3 py-1 my-2" id="writing">Creative writing</div>
