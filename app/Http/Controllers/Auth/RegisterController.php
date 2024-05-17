@@ -28,6 +28,6 @@ class RegisterController extends Controller
         // Optionally, log the user in immediately after registration
         auth()->login($user);
 
-        return redirect()->route('welcome')->with('success', 'Registration successful.');
+        return redirect()->route('home')->with('success', 'Registration successful.');
     }
 }

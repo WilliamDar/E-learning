@@ -111,7 +111,6 @@
 
     </header>
 
-
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
             // Get the modal
