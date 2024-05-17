@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('description');
             $table->string('link');
             $table->string('containt');
+            $table->string('category');
             $table->timestamps();
         });
     }

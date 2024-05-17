@@ -10,10 +10,11 @@ use Illuminate\Support\Facades\Auth;
 class LoginController extends Controller
 {
     public function login(PostLogin $request){
-        if(Auth::attempt([$request->only(['email', 'password'])])){
-            return redirect()->route('dashboard')->with('success', 'Successfully login');
-        }else{
-            return redirect()->back()->with('error', 'Invalid input ');
+        if (Auth::attempt($request->only(['email', 'password']))) {
+            $user = Auth::user();
+            session()->flash('message', 'Bienvenue de retour, ' . $user->name);
+            return redirect()->route('welcome');
         }
+        return redirect()->back()->withErrors(['message' => 'Identifiants invalides. Veuillez réessayer']);
     }
 }
