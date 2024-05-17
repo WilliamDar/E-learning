@@ -13,7 +13,7 @@ class LoginController extends Controller
         if (Auth::attempt($request->only(['email', 'password']))) {
             $user = Auth::user();
             session()->flash('message', 'Bienvenue de retour, ' . $user->name);
-            return redirect()->route('welcome');
+            return redirect()->route('home');
         }
         return redirect()->back()->withErrors(['message' => 'Identifiants invalides. Veuillez réessayer']);
     }

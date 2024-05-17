@@ -95,12 +95,6 @@
 
 
     </header>
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Minus sequi, laboriosam ipsam ad tempore voluptas odio modi
-        nemo aperiam. Quas dolorem blanditiis, sunt officiis excepturi
-        reprehenderit. Magni nihil quaerat corrupti?
-    </p>
 
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
